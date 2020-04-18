@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h4>Orders</h4>
     <router-view />
   </div>
 
@@ -9,7 +8,7 @@
 <script>
 
 export default {
-  // name: 'BasketOrders',
+  name: 'Orders',
   data () {
 
   }
