@@ -152,7 +152,7 @@ export default {
         ? ''
         : `${this.selected.length} record${
             this.selected.length > 1 ? 's' : ''
-          } selected of ${this.data.length}`
+          } selected of ${this.orders.length}`
     }
 
   }
