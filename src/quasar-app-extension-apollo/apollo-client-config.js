@@ -25,11 +25,15 @@ export default function (/* { app, router, store, ssrContext, urlPath, redirect 
 
     // ssr: {},
 
-    // dev: {
-    //   httpLinkConfig: {
-    //     uri: process.env.GRAPHQL_URI || 'http://dev.example.com/graphql'
-    //   }
-    // },
+    dev: {
+      httpLinkConfig: {
+        uri: process.env.GRAPHQL_URI || 'https://api-staging.budzonnerie.com',
+        headers: {
+          'x-hasura-admin-secret': 'ne4NJ3TC1kR66daAdvXP'
+
+        }
+      }
+    },
 
     // prod: {
     //   httpLinkConfig: {

@@ -1,0 +1,91 @@
+{
+    "data": {
+      "orders": [
+        {
+          "id": 1,
+          "basket_type": 0,
+          "email": null,
+          "first_name": "Laurent",
+          "last_name": "Michel",
+          "phone": "0774288394",
+          "street": "Le Verger 5",
+          "city": "Onnens",
+          "zip": 1756,
+          "created_at": "2020-04-15T07:28:55.874793+00:00",
+          "need_condiments": false,
+          "comments": null,
+          "delivered_at": null,
+          "paied_amount": null,
+          "__typename": "basket_orders"
+        },
+        {
+          "id": 4,
+          "basket_type": 0,
+          "email": "cedonner@gmail.com",
+          "first_name": "Cédric",
+          "last_name": "Donner",
+          "phone": "+41768220510",
+          "street": "Chemin des Combes 26",
+          "city": "Bulle",
+          "zip": 1630,
+          "created_at": "2020-04-18T15:53:46.733168+00:00",
+          "need_condiments": true,
+          "comments": "je trouve que vous êtes vraiment une sacrée équipe",
+          "delivered_at": null,
+          "paied_amount": null,
+          "__typename": "basket_orders"
+        },
+        {
+          "id": 5,
+          "basket_type": 2,
+          "email": "cedonner@gmail.com",
+          "first_name": "Cédric",
+          "last_name": "Donner",
+          "phone": "+41768220510",
+          "street": "Chemin des Combes 26",
+          "city": "Bulle",
+          "zip": 1630,
+          "created_at": "2020-04-18T15:53:59.651812+00:00",
+          "need_condiments": false,
+          "comments": "je trouve que vous êtes vraiment une sacrée équipe",
+          "delivered_at": null,
+          "paied_amount": null,
+          "__typename": "basket_orders"
+        },
+        {
+          "id": 7,
+          "basket_type": 0,
+          "email": "simeon@gmail.com",
+          "first_name": "Siméon",
+          "last_name": "Donner",
+          "phone": "0269125628",
+          "street": "Chemin des Combes 26",
+          "city": "Bulle",
+          "zip": 1630,
+          "created_at": "2020-04-18T16:17:12.271913+00:00",
+          "need_condiments": false,
+          "comments": null,
+          "delivered_at": null,
+          "paied_amount": null,
+          "__typename": "basket_orders"
+        },
+        {
+          "id": 8,
+          "basket_type": 2,
+          "email": "jaochim@gmail.com",
+          "first_name": "Joachim",
+          "last_name": "Donner",
+          "phone": "0768374323",
+          "street": "Chemin des Combes 26",
+          "city": "Bulle",
+          "zip": 1630,
+          "created_at": "2020-04-18T21:17:23.067831+00:00",
+          "need_condiments": false,
+          "comments": null,
+          "delivered_at": null,
+          "paied_amount": null,
+          "__typename": "basket_orders"
+        }
+      ]
+    }
+  }
