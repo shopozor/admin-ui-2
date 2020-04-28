@@ -150,7 +150,7 @@ export default {
     getSelectedString () {
       return this.selected.length === 0
         ? ''
-        : `${this.selected.length} record${
+        : `${this.selected.length} order${
             this.selected.length > 1 ? 's' : ''
           } selected of ${this.orders.length}`
     }
